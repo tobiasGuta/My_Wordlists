@@ -1,1 +1,3 @@
-bypassing a whitelist validation test through Character Injection. inject several characters before or after the final extension
+This tool is a shell script designed to generate a list of file names commonly used in web-based attacks, particularly targeting PHP files. It iterates through different combinations of characters and file extensions to create a comprehensive wordlist. The generated filenames include variations with different characters such as spaces, newlines, null bytes, carriage returns, slashes, dots, colons, and ellipses, appended or prepended to common PHP file extensions.
+
+The purpose of this tool is likely for penetration testing or security research, where having a varied wordlist can be useful for identifying and exploiting potential vulnerabilities in web applications or servers.
